@@ -11,9 +11,9 @@ namespace ConsoleApp2
         static void Main(string[] args)
         {
             int k = 0;
-            Console.Write("Введите строку: ");
+            Console.Write("Р’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєСѓ: ");
             string a = Console.ReadLine();
-            Console.Write("Введите символ: ");
+            Console.Write("Р’РІРµРґРёС‚Рµ СЃРёРјРІРѕР»: ");
             char c = Console.ReadKey().KeyChar;
             Console.WriteLine();
 
@@ -25,7 +25,7 @@ namespace ConsoleApp2
                     k++;
                 }
             }
-            Console.WriteLine("Количество повторений заданного символа: " + k);
+            Console.WriteLine("РљРѕР»РёС‡РµСЃС‚РІРѕ РїРѕРІС‚РѕСЂРµРЅРёР№ Р·Р°РґР°РЅРЅРѕРіРѕ СЃРёРјРІРѕР»Р°: " + k);
             Console.ReadKey();
         }
 
